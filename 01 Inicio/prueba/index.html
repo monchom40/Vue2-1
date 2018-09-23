@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Primera aplicacion con Vue</title>
+    <script  src = "https://cdn.jsdelivr.net/npm/vue" ></script >
+</head>
+<body>
+
+  <div class="vue">
+
+      <span> {{mensaje}} </span> <br>
+      <button v-on:click="mensaje = 'Este es el nuevo mensaje'"> Cambiar mensaje </button>
+      <button v-on:click="proceso('prueba')"> Ejecutar proceso </button>
+
+  </div>
+
+  <script src="vue.js">   </script>
+  
+</body>
+</html>
